@@ -20,9 +20,9 @@ I'll go over:
   - The STEP variable is to determine how fast the servo schanges position. The higher it is the faster the servo will move. I set it to 50 for smooth movement. It also runs a lower risk of the robot losing balance, with the base being 0.5 kg
 - max_wait is the numbers of attempts the Pi will make to connect to the wifi. If the connection still fails, it wll throw a connection error. 
 
-##The Remote
+## The Remote
 The robot is controlled by a webapp made in react, using Typescript. I tried to keep it as minimal as possible. The four buttons under the "Simple Movements" heading move the servos back and forth and the two buttons under the "Combined Movements" are combinations of the simple movements. The requirements for the page are ```react``` for the buttons and ```axios``` for sending requests.The buttons themselves are react components.
 The dialogue only takes place over the local network.
 
-##C implementation of robot code 
+## C implementation of robot code 
 (coming soon)
